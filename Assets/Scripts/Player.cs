@@ -22,13 +22,25 @@ namespace LP
         void Update()
         {
             if (VirtualInputManager.Instance.Right)
-                this.gameObject.transform.Translate(Vector3.right * Speed * Time.deltaTime);
-            if (VirtualInputManager.Instance.Left)
-                this.gameObject.transform.Translate(Vector3.left * Speed * Time.deltaTime);
-            if (VirtualInputManager.Instance.Up)
+            {
                 this.gameObject.transform.Translate(Vector3.forward * Speed * Time.deltaTime);
+                this.gameObject.transform.rotation = Quaternion.Euler(0f, 90f, 0f);
+            }
+            if (VirtualInputManager.Instance.Left)
+            {
+                this.gameObject.transform.Translate(Vector3.forward * Speed * Time.deltaTime);
+                this.gameObject.transform.rotation = Quaternion.Euler(0f, 270f, 0f);
+            }
+            if (VirtualInputManager.Instance.Up)
+            {
+                this.gameObject.transform.Translate(Vector3.forward * Speed * Time.deltaTime);
+                this.gameObject.transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+            }
             if (VirtualInputManager.Instance.Down)
-                this.gameObject.transform.Translate(Vector3.back * Speed * Time.deltaTime);
+            {
+                this.gameObject.transform.Translate(Vector3.forward * Speed * Time.deltaTime);
+                this.gameObject.transform.rotation = Quaternion.Euler(0f, 180f, 0f);
+            }
 
         }
     }
