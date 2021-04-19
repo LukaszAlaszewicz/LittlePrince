@@ -27,6 +27,11 @@ namespace LP
                 VirtualInputManager.Instance.Down = true;
             else
                 VirtualInputManager.Instance.Down = false;
+
+            if (Input.GetKey(KeyCode.LeftShift))
+                VirtualInputManager.Instance.Sprint = true;
+            else
+                VirtualInputManager.Instance.Sprint = false;
         }
     }
 }

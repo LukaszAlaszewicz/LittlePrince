@@ -7,6 +7,7 @@ namespace LP
     public enum Transition
     {
         Move,
+        Sprint,
         Jump,
         ForceTransition,
         Grounded,
@@ -17,6 +18,7 @@ namespace LP
         public bool MoveLeft;
         public bool MoveUp;
         public bool MoveDown;
+        public bool Sprint;
 
         public float Speed;
         public float SideSpeed;

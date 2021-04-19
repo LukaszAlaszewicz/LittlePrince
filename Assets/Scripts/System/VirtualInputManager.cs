@@ -10,6 +10,7 @@ namespace LP
         public bool Left;
         public bool Up;
         public bool Down;
+        public bool Sprint;
 
     }
 }

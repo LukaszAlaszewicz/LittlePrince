@@ -6,18 +6,33 @@ namespace LP
 {
     public class CharacterStateBase : StateMachineBehaviour
     {
-        private Player characterControl;
-        public Player GetCharacterControl(Animator animator)
+        public List<StateData> ListAbilityData = new List<StateData>();
+
+        public void UpdateAll(CharacterStateBase characterStateBase, Animator animator, AnimatorStateInfo stateInfo)
         {
-            if (characterControl == null)
+            foreach (StateData d in ListAbilityData)
             {
-                characterControl = animator.GetComponentInParent<Player>();
+                d.UpdateAbiltiy(characterStateBase, animator, stateInfo);
             }
-            return characterControl;
         }
-    
-    
-    
+
+        public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+        {
+            UpdateAll(this, animator, stateInfo);
+        }
+
+        private Player playerControl;
+        public Player GetCharacterController(Animator animator)
+        {
+            if (playerControl == null)
+            {
+                playerControl = animator.GetComponentInParent<Player>();
+            }
+            return playerControl;
+        }
+
+
+
     }
 
 }

@@ -38,7 +38,7 @@ AnimatorState:
   m_Transitions:
   - {fileID: -6916723464213952776}
   m_StateMachineBehaviours:
-  - {fileID: 5166446510366114563}
+  - {fileID: 5761369222148946098}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -90,6 +90,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ae75dbba97b28746ad9dbdd77180152, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Duration: 0
 --- !u!1102 &-4571519838935688241
 AnimatorState:
   serializedVersion: 6
@@ -103,7 +104,7 @@ AnimatorState:
   m_Transitions:
   - {fileID: -8559844393375808187}
   m_StateMachineBehaviours:
-  - {fileID: 5566681056885664309}
+  - {fileID: 812796658922782528}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
@@ -133,6 +134,12 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
+  - m_Name: Sprint
+    m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -146,6 +153,20 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
+--- !u!114 &812796658922782528
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55153f3e3ed8f30468b841b51b2f364a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListAbilityData:
+  - {fileID: 11400000, guid: 4ee73e85094a9f74fb7c4301a3c277a0, type: 2}
 --- !u!1107 &1467602161201465977
 AnimatorStateMachine:
   serializedVersion: 6
@@ -160,7 +181,7 @@ AnimatorStateMachine:
     m_Position: {x: 320, y: 110, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -4571519838935688241}
-    m_Position: {x: 450, y: -10, z: 0}
+    m_Position: {x: 380, y: 0, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -183,6 +204,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ae75dbba97b28746ad9dbdd77180152, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Duration: 0
 --- !u!114 &5566681056885664309
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -195,3 +217,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b68394552fdda5647a53ae2f71862152, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5761369222148946098
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55153f3e3ed8f30468b841b51b2f364a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListAbilityData:
+  - {fileID: 11400000, guid: 3efa676bfbea5aa4492ecc3b3ac4f21e, type: 2}

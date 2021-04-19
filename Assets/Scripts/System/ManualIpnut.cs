@@ -50,6 +50,16 @@ namespace LP
             {
                 playerControl.MoveDown = false;
             }
+
+            if (VirtualInputManager.Instance.Sprint)
+            {
+                playerControl.Sprint = true;
+            }
+            else
+            {
+                playerControl.Sprint = false;
+
+            }
         }
     }
 }
