@@ -14,6 +14,16 @@ namespace LP
             {
                 animator.SetBool(Transition.Move.ToString(), false);
             }
+            if (VirtualInputManager.Instance.Right && VirtualInputManager.Instance.Left)
+            {
+                animator.SetBool(Transition.Move.ToString(), false);
+                return;
+            }
+            if (VirtualInputManager.Instance.Up && VirtualInputManager.Instance.Down)
+            {
+                animator.SetBool(Transition.Move.ToString(), false);
+                return;
+            }
             if (VirtualInputManager.Instance.Right)
             {
                 animator.SetBool(Transition.Move.ToString(), true);

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Movement
   m_EditorClassIdentifier: 
   Duration: 0
-  Speed: 3
-  sSpeed: 3
+  Speed: 2
+  rotSpeed: 5
