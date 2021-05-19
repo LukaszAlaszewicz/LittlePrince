@@ -9,6 +9,7 @@ namespace LP
     {
         public override void UpdateAbiltiy(CharacterStateBase characterStateBase, Animator animator, AnimatorStateInfo stateInfo)
         {
+            DeathTrigger Death;
             if (!VirtualInputManager.Instance.Right && !VirtualInputManager.Instance.Left &&
                !VirtualInputManager.Instance.Up && !VirtualInputManager.Instance.Down)
             {
@@ -40,6 +41,12 @@ namespace LP
             {
                 animator.SetBool(Transition.Move.ToString(), true);
             }
+
+            if(Death == true)
+            {
+
+            }
+
         }
     }
 
