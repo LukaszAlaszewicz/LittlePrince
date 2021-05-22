@@ -42,10 +42,10 @@ namespace LP
                 animator.SetBool(Transition.Move.ToString(), true);
             }
 
-            if(Death == true)
-            {
+          //  if(Death == true)
+       //     {
 
-            }
+        //    }
 
         }
     }
