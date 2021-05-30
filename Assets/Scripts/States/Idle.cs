@@ -9,7 +9,7 @@ namespace LP
     {
         public override void UpdateAbiltiy(CharacterStateBase characterStateBase, Animator animator, AnimatorStateInfo stateInfo)
         {
-            DeathTrigger Death;
+           // DeathTrigger Death;
             if (!VirtualInputManager.Instance.Right && !VirtualInputManager.Instance.Left &&
                !VirtualInputManager.Instance.Up && !VirtualInputManager.Instance.Down)
             {

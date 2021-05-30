@@ -32,6 +32,8 @@ namespace LP
                 VirtualInputManager.Instance.Sprint = true;
             else
                 VirtualInputManager.Instance.Sprint = false;
+
+
         }
     }
 }
