@@ -40,7 +40,7 @@ public class DialogMenager : MonoBehaviour
         ShowText();
         //cam2.SetActive(true);
         //cam_main.SetActive(false);
-
+        Time.timeScale = 0;
 
 
     }
@@ -49,9 +49,10 @@ public class DialogMenager : MonoBehaviour
     {
         Cursor.visible = false;
         DialogPanel.SetActive(false);
-        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.lockState = CursorLockMode.Locked;
         //cam2.SetActive(false);
         //cam_main.SetActive(true);
+        Time.timeScale = 1;
 
 
     }
