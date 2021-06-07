@@ -13,8 +13,10 @@ namespace LP
 
         public void Start()
         {
-            pauseMenu.SetActive(false);
-            OptionsMenu.SetActive(false);
+            if(SceneManager.GetActiveScene().buildIndex == 0)
+                OptionsMenu.SetActive(false);
+            else
+                pauseMenu.SetActive(false);
         }
         public void Update()
         {
