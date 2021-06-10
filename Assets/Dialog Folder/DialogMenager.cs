@@ -10,7 +10,6 @@ public class DialogMenager : MonoBehaviour
     public TMP_Text npcNameText;
     public TMP_Text dialogText;
     public Button NextButton;
-    public GameObject StopTheDialog;
     //private AudioSource source;
     //public GameObject cam_main;
     //public GameObject cam2;
@@ -54,7 +53,8 @@ public class DialogMenager : MonoBehaviour
         //cam2.SetActive(false);
         //cam_main.SetActive(true);
         Time.timeScale = 1;
-        StopTheDialog.GetComponent<BoxCollider>().enabled = false;
+
+
     }
 
     private void ShowText()
