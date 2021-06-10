@@ -5442,6 +5442,7 @@ MonoBehaviour:
   npcNameText: {fileID: 905026534}
   dialogText: {fileID: 180693702}
   NextButton: {fileID: 5777623}
+  StopTheDialog: {fileID: 765309084}
 --- !u!4 &474614745
 Transform:
   m_ObjectHideFlags: 0
@@ -14927,11 +14928,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4766706328321064499, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0000000042858663
+      value: 0.0000000042858663
       objectReference: {fileID: 0}
     - target: {fileID: 4766706328321064499, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 3.6751951e-10
+      value: -3.6751951e-10
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554496, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_Follow
@@ -14963,11 +14964,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554497, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0000000042858663
+      value: 0.0000000042858663
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554497, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 3.6751951e-10
+      value: -3.6751951e-10
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329933972049, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_RootOrder
