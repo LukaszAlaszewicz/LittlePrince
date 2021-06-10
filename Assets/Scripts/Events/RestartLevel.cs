@@ -7,11 +7,11 @@ namespace LP
 {
     public class RestartLevel : MonoBehaviour
     {
-        public bool Death;
+        public GameObject deathScreen;
         public float delay = 0f;
         public void Start()
         {
-            Death = false;
+            deathScreen.SetActive(false);
         }
 
         IEnumerator WaitForRestart(float delay)
@@ -27,6 +27,7 @@ namespace LP
         {
             if (other.tag == "Player")
             {
+                deathScreen.SetActive(true);
                 Time.timeScale = 0.1f;
                 StartCoroutine(WaitForRestart(delay));             
             }
