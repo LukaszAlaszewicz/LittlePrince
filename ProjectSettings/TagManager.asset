@@ -8,6 +8,7 @@ TagManager:
   - Teleport
   - Lighthouse
   - PauseMenu
+  - InvWall
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - 
   - 
   - ground
-  - 
+  - wall
   - 
   - 
   - 
