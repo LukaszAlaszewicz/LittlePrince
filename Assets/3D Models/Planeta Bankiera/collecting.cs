@@ -7,6 +7,7 @@ using UnityEngine.EventSystems;
 public class collecting : MonoBehaviour
 {
     public float speed;
+    public AudioSource clip;
     //public GameObject Player;
 
     // Start is called before the first frame update
@@ -27,6 +28,7 @@ public class collecting : MonoBehaviour
         if (col.name == "Player")
         {
             col.GetComponent<coins>().coinz++;
+            clip.Play();
             Destroy(gameObject);
         }
     }
