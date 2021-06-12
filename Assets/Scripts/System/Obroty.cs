@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//by julia duda
+//tylko dla esetyki plnaety
 public class Obroty : MonoBehaviour
 {
     public float xAngle, yAngle, zAngle;

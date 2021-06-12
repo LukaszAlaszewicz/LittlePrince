@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-
+//by julia duda
 public class DialogMenager : MonoBehaviour
 {
     public GameObject DialogPanel;
@@ -11,10 +11,7 @@ public class DialogMenager : MonoBehaviour
     public TMP_Text dialogText;
     public Button NextButton;
     public GameObject StopTheDialog;
-    //private AudioSource source;
-    //public GameObject cam_main;
-    //public GameObject cam2;
-
+  
     /*
      Skrypt odpwoedzialny za dialogi w grze
          
@@ -26,7 +23,6 @@ public class DialogMenager : MonoBehaviour
 
     private void Start()
     {
-        //source = GetComponent<AudioSource>();
         DialogPanel.SetActive(false);
     }
 
@@ -39,8 +35,6 @@ public class DialogMenager : MonoBehaviour
         DialogPanel.SetActive(true);
         convoIndex = 0;
         ShowText();
-        //cam2.SetActive(true);
-        //cam_main.SetActive(false);
         Time.timeScale = 0;
 
 
@@ -50,9 +44,6 @@ public class DialogMenager : MonoBehaviour
     {
         Cursor.visible = false;
         DialogPanel.SetActive(false);
-        //Cursor.lockState = CursorLockMode.Locked;
-        //cam2.SetActive(false);
-        //cam_main.SetActive(true);
         Time.timeScale = 1;
         StopTheDialog.GetComponent<BoxCollider>().enabled = false;
 
@@ -65,7 +56,6 @@ public class DialogMenager : MonoBehaviour
 
     public void Next()
     {
-        //source.Play();
         if (convoIndex < conversation.Count - 1)
         {
             convoIndex += 1;

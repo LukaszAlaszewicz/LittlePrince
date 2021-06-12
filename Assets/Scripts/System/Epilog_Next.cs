@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+//by julia duda
 public class Epilog_Next : MonoBehaviour
 {
     public int secondLeft = 65;

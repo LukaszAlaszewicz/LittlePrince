@@ -7,7 +7,6 @@ public class ObrazyQuest : MonoBehaviour
     public static int theScore;
     public AudioSource collectSound;
     public GameObject done;
-   
     private GameObject score;
 
     private void OnTriggerEnter(Collider other)

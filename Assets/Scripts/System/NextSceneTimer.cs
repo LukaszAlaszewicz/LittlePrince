@@ -9,12 +9,7 @@ public class NextSceneTimer : MonoBehaviour
 {
     public int secondLeft = 49;
     public bool takingAway = false;
-    void Start()
-    {
-        
-    }
-
-   
+  
     void Update()
     {
         if(takingAway == false && secondLeft > 0)

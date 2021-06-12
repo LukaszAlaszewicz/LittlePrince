@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+
+//by julia duda
 public class ObrazyScore : MonoBehaviour
 {
     public static int theScore;
@@ -11,9 +13,7 @@ public class ObrazyScore : MonoBehaviour
     void Update()
     {
         scoreText.GetComponent<Text>().text = " " + theScore;
-
-        if (ObrazyScore.theScore == 3)
-            teleporter();
+        teleporter();
     }
 
     public void teleporter()

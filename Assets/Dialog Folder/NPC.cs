@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//by julia duda
 public class NPC : MonoBehaviour
 {
 
