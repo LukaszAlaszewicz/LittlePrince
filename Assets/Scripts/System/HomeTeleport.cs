@@ -14,9 +14,9 @@ namespace LP
             else if (SceneManager.GetActiveScene().buildIndex == 8)
                 SceneManager.LoadScene(19);
             else if (SceneManager.GetActiveScene().buildIndex == 12)
-                SceneManager.LoadScene(20);
-            else if (SceneManager.GetActiveScene().buildIndex == 16)
                 SceneManager.LoadScene(21);
+            else if (SceneManager.GetActiveScene().buildIndex == 16)
+                SceneManager.LoadScene(23);
         }
     }
 }

@@ -8,11 +8,11 @@ public class MirrorTeleport : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
 
-        if (SceneManager.GetActiveScene().buildIndex == 19)
-            SceneManager.LoadScene(8);
-        else if (SceneManager.GetActiveScene().buildIndex == 20)
-            SceneManager.LoadScene(12);
-        else if (SceneManager.GetActiveScene().buildIndex == 21)
-            SceneManager.LoadScene(16);
+        if (SceneManager.GetActiveScene().buildIndex == 20)
+            SceneManager.LoadScene(7);
+        else if (SceneManager.GetActiveScene().buildIndex == 22)
+            SceneManager.LoadScene(11);
+        else if (SceneManager.GetActiveScene().buildIndex == 24)
+            SceneManager.LoadScene(17);
     }
 }

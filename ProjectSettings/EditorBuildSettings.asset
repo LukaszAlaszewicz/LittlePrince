@@ -63,11 +63,20 @@ EditorBuildSettings:
     path: Assets/Scenes/Scena koncowa.unity
     guid: c27a6d9f1772a46449980a79774aff5c
   - enabled: 1
+    path: Assets/Scenes/Loading Scenes/Loading Screen8.unity
+    guid: b61027dae60216d4db5f4389c4e8988d
+  - enabled: 1
     path: Assets/Scenes/Home Planet Progress/HomePlanet - Pierwszy Boss.unity
     guid: e382afba9aeb3cc4a9632358b5b8bea5
   - enabled: 1
+    path: Assets/Scenes/Loading Scenes/Loading Screen9.unity
+    guid: 301a972dc1d1e6c4a8f501bb16aaf1ed
+  - enabled: 1
     path: Assets/Scenes/Home Planet Progress/HomePlanet - Drugi Boss.unity
     guid: 6069021f8c10a9e4e8c5d57025f6b56b
+  - enabled: 1
+    path: Assets/Scenes/Loading Scenes/Loading Screen10.unity
+    guid: 336c5c501ab82534f8631a310dea8f74
   - enabled: 1
     path: Assets/Scenes/Home Planet Progress/HomePlanet - Trzeci Boss.unity
     guid: 86b5efcceeea37e4a9e5d0286745c460
