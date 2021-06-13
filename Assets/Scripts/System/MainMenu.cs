@@ -8,15 +8,11 @@ namespace LP
     public class MainMenu : MonoBehaviour
     {
         public GameObject pauseMenu;
-        public GameObject mainMenu;
-        public GameObject OptionsMenu;
+
 
         public void Start()
         {
-            if(SceneManager.GetActiveScene().buildIndex == 0)
-                OptionsMenu.SetActive(false);
-            else
-                pauseMenu.SetActive(false);
+            pauseMenu.SetActive(false);
         }
         public void Update()
         {
@@ -33,16 +29,6 @@ namespace LP
         public void Exit()
         {
             Application.Quit();
-        }
-        public void Options()
-        {
-            OptionsMenu.SetActive(true);
-            mainMenu.SetActive(false);
-        }
-        public void Return()
-        {
-            OptionsMenu.SetActive(false);
-            mainMenu.SetActive(true);
         }
 
         public void Continue()
