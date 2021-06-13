@@ -1360,8 +1360,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 0}
-  mainMenu: {fileID: 1212452744}
-  OptionsMenu: {fileID: 0}
 --- !u!4 &1594236501
 Transform:
   m_ObjectHideFlags: 0
@@ -1473,7 +1471,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\" Kiedy b\u0119dziesz patrzy\u0142\nnoc\u0105 w niebie, b\u0119dzie \nci
+  m_Text: "\" Kiedy b\u0119dziesz patrzy\u0142\nnoc\u0105 w niebo, b\u0119dzie \nCi
     si\u0119 wydawa\u0142o, \u017Ce wszystkie gwiazdy \u015Bmiej\u0105 si\u0119 do
     Ciebie, poniewa\u017C ja b\u0119d\u0119 u\u015Bmiecha\u0142 si\u0119 na jednej
     z nich.\""

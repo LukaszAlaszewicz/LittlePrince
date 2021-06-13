@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.01549517, g: 0.0766645, b: 0.10729357, a: 1}
+  m_IndirectSpecularColor: {r: 0.015495088, g: 0.076664515, b: 0.10729406, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -14226,7 +14226,7 @@ MonoBehaviour:
     przed twarz\u0105 aby unikn\u0105\u0107 wdychania go.*"
   - "MK: Rozumiem, \u017Ce nie jest Pan zainteresowany\u2026 Mo\u017Ce w takim razie
     sobie p\xF3jd\u0119. "
-  - "*Bankier wstaje ze krzes\u0142a i u\u015Bmiecha si\u0119 szyderczo.*"
+  - "*Bankier wstaje z krzes\u0142a i u\u015Bmiecha si\u0119 szyderczo.*"
   - "B: Oh, Ma\u0142y Ksi\u0105\u017Ce, oczywi\u015Bcie \u017Ce pragn\u0119 twojej
     przyja\u017Ani."
   - "*Podchodzi do ch\u0142opca i popycha go na krzes\u0142o, kt\xF3re nagle si\u0119
@@ -14259,9 +14259,9 @@ MonoBehaviour:
     spe\u0142ni\u0107 swoje marzenia. Byli jak hamulec, nie mo\u017Cna by\u0142o
     na nich liczy\u0107. "
   - "MK: A mo\u017Cna liczy\u0107 na Ciebie?"
-  - "*Bankier spojrza\u0142 si\u0119 z powrotem na Ma\u0142ego Ksi\u0119cia i u\u015Bmiechn\u0105
-    si\u0119, po\u0142o\u017Cy\u0142 nogi na biurku i opar\u0142 si\u0119 g\u0142ow\u0119
-    na swoich d\u0142oniach.*"
+  - "*Bankier spojrza\u0142 na Ma\u0142ego Ksi\u0119cia i u\u015Bmiechn\u0105 si\u0119,
+    po\u0142o\u017Cy\u0142 nogi na biurku i opar\u0142 si\u0119 g\u0142ow\u0119 na
+    swoich d\u0142oniach.*"
   - "B: W ka\u017Cdym razie, osi\u0105gn\u0105\u0142em sw\xF3j cel, mam z czego by\u0107
     dumny."
   - "MK: Owszem, ale tylko Ty celebrowa\u0142e\u015B swoje zwyci\u0119stwo. Teraz
@@ -21135,11 +21135,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4766706328321064499, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0000000042858663
+      value: -0.0000000042858663
       objectReference: {fileID: 0}
     - target: {fileID: 4766706328321064499, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -3.6751951e-10
+      value: 3.6751951e-10
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554496, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_Follow
@@ -21171,11 +21171,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554497, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0000000042858663
+      value: -0.0000000042858663
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554497, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -3.6751951e-10
+      value: 3.6751951e-10
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329933972049, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_RootOrder

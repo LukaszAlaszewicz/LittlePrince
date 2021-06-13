@@ -1085,7 +1085,7 @@ MonoBehaviour:
     z kim napi\u0107!"
   - "MK: Podzi\u0119kuj\u0119, naprawd\u0119 nie mog\u0119 zosta\u0107\u2026"
   - "*N\u0119dznik d\u0142ugo przygl\u0105da si\u0119 jemu, po czym kiwa g\u0142ow\u0105*"
-  - "N: Dobrze, wypuszcz\u0119 Ci\u0119, ale za jednym warunkiem \u2013 musisz rozwi\u0105za\u0107
+  - "N: Dobrze, wypuszcz\u0119 Ci\u0119, ale pod jednym warunkiem \u2013 musisz rozwi\u0105za\u0107
     moja zagadk\u0119! Tylko osoba, kt\xF3ra mnie zrozumie b\u0119dzie mog\u0142a
     zdoby\u0107 moje uznanie."
   - "*Ma\u0142y Ksi\u0105\u017Ce kiwn\u0105\u0142 g\u0142ow\u0105 na zgod\u0119 i
@@ -1098,18 +1098,19 @@ MonoBehaviour:
     ze sob\u0105 na okr\u0105g\u0142o czas. "
   - "Albin by\u0142 dla mnie jak brat, a Anabel\u2026 "
   - "By\u0142a nie tylko moj\u0105 przyjaci\xF3\u0142k\u0105, ale te\u017C bratnia
-    dusz\u0105, nie by\u0142o dnia gdzie nie sp\u0119dzali\u015Bmy go razem we tr\xF3jk\u0119. "
+    dusz\u0105, nie by\u0142o dnia kt\xF3rego nie sp\u0119dzali\u015Bmy razem we
+    tr\xF3jk\u0119. "
   - "MK: Co posz\u0142o nie tak?"
-  - "N: Nie zda\u0142em sobie sprawy, \u017Ce to wszystko by\u0142o ILUZJ\u0104,
+  - "N: Nie zdawa\u0142em sobie sprawy, \u017Ce to wszystko by\u0142o ILUZJ\u0104,
     nie zauwa\u017Cy\u0142em tego \u017Ce Anabel kocha Albina."
   - "Musia\u0142em to zobaczy\u0107 na w\u0142asne oczy by uwierzy\u0107 w jej ZDRAD\u0118\u2026"
   - "MK: Co si\u0119 sta\u0142o z Tob\u0105 i Albinem? Byli\u015Bcie jak bracia?"
-  - "N: Czy to nie oczywiste? Gdy skonsultowa\u0142em si\u0119 z nim w tej sprawie,
-    On wytkn\u0105\u0142 mi \u017Ce by\u0142em egoistycznym przyjacielem\u2026 "
+  - "N: Czy to nie oczywiste? Gdy zapyta\u0142em go o to, On wytkn\u0105\u0142 mi
+    \u017Ce by\u0142em egoistycznym przyjacielem\u2026 "
   - "Ja? Hahaha\u2026-*Zacz\u0105\u0142 g\u0142o\u015Bno kaszle\u0107.*"
   - "- ROZ\u0141AM, bola\u0142 najbardziej, s\u0105dzi\u0142em, \u017Ce mnie potrzebuj\u0105,
     \u017Ce beze mnie s\u0105 nikim\u2026 - *Spogl\u0105da smutno na st\xF3\u0142.*"
-  - "N: By\u0142em zbyt zas\u0142oni\u0119ty swoimi zachciankami, by zauwa\u017Cy\u0107,
+  - "N: By\u0142em zbyt poch\u0142oniety swoimi zachciankami, by zauwa\u017Cy\u0107,
     \u017Ce Albin kocha\u0142 Anabel od zawsze\u2026"
   - "*Ku zdziwieniu N\u0119dznika, Ma\u0142y Ksi\u0105\u017Ce podszed\u0142 do niego
     i przytuli\u0142 go. *"
@@ -1196,7 +1197,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -2225,11 +2226,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4766706328321064499, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000016634806
+      value: 0.000000016634806
       objectReference: {fileID: 0}
     - target: {fileID: 4766706328321064499, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000014264597
+      value: -0.0000000014264597
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554496, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_Follow
@@ -2261,11 +2262,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554497, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000016634806
+      value: 0.000000016634806
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554497, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000014264597
+      value: -0.0000000014264597
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329933972049, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_RootOrder

@@ -20248,7 +20248,7 @@ MonoBehaviour:
   - "MK: Lustro same si\u0119 pojawi\u0142o, gdy zapragn\u0105\u0142em zmiany."
   - "*Latarnik nic nie odpowiadaj\u0105c patrzy si\u0119 na Ma\u0142ego Ksi\u0119cia,
     ma ciemne wory pod oczami jakby ju\u017C dawno nie odpoczywa\u0142*"
-  - "MK: Nie rozumiem tych zabezpiecze\u0144, czemu tak si\u0119 chronisz przed lud\u017Ami?"
+  - "MK: Nie rozumiem tych zabezpiecze\u0144, czemu tak si\u0119 bronisz przed lud\u017Ami?"
   - "L: Im bardziej ba\u0142em si\u0119 ludzi, ty bardziej by\u0142em lubiany, a
     im bardziej mnie lubili, tym bardziej si\u0119 ich ba\u0142em, i to kaza\u0142o
     mi przed wszystkimi ucieka\u0107."
@@ -20259,11 +20259,11 @@ MonoBehaviour:
     \u015Bwiat?"
   - "*Ma\u0142y Ksi\u0105\u017Ce kr\u0119ci g\u0142ow\u0105, nie rozumie o jaki \u015Bwiat
     mu chodzi*"
-  - "L: Na ciebie ju\u017C czas\u2026 Nie s\u0105dzi\u0142e\u015B, \u017Ce kto\u015B
-    do mnie dotrze. Id\u017A ju\u017C."
+  - "L: Na ciebie ju\u017C czas\u2026 Nie s\u0105dzi\u0142em, \u017Ce kto\u015B do
+    mnie dotrze. Id\u017A ju\u017C."
   - "MK: Mo\u017Ce ze mn\u0105 p\xF3jdziesz?"
   - "L: Nie, ja\u2026 Boje si\u0119."
-  - "*Ma\u0142y Ksi\u0105\u017Ce troskliwie spojrza\u0142 oczy latarnika a nast\u0119pnie
+  - "*Ma\u0142y Ksi\u0105\u017Ce troskliwie spojrza\u0142 w oczy latarnika a nast\u0119pnie
     u\u015Bcisn\u0105\u0142 mu d\u0142o\u0144*"
   - === KONIEC ===
 --- !u!1 &690455408 stripped
@@ -47902,7 +47902,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4766706329290497661}
-  m_LocalRotation: {x: 0.34444797, y: -0.000000016153445, z: 0.000000005926702, w: 0.93880546}
+  m_LocalRotation: {x: 0.34444797, y: 0.000000016153445, z: -0.000000005926702, w: 0.93880546}
   m_LocalPosition: {x: -187.02429, y: -39.74, z: -94.56}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -47971,7 +47971,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4766706330131349323}
-  m_LocalRotation: {x: 0.34444797, y: -0.000000016153445, z: 0.000000005926702, w: 0.93880546}
+  m_LocalRotation: {x: 0.34444797, y: 0.000000016153445, z: -0.000000005926702, w: 0.93880546}
   m_LocalPosition: {x: -187.02429, y: -39.74, z: -94.56}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
