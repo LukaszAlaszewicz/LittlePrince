@@ -1113,7 +1113,7 @@ MonoBehaviour:
     \u017Ce Albin kocha\u0142 Anabel od zawsze\u2026"
   - "*Ku zdziwieniu N\u0119dznika, Ma\u0142y Ksi\u0105\u017Ce podszed\u0142 do niego
     i przytuli\u0142 go. *"
-  - "*N\u0119dznik, chwil\u0119 zreorientowany odwzajemni\u0119 u\u015Bcisk.*"
+  - "*N\u0119dznik, chwil\u0119 zdezorientowany odwzajemni\u0119 u\u015Bcisk.*"
   - "N: Mam nadzieje \u017Ce sobie poradzisz Ma\u0142y Ksi\u0105\u017Ce ze moj\u0105
     zagadk\u0105 i znajdziesz lepszych ludzi\u2026"
   - "MK: Dzi\u0119kuj\u0119, za opowie\u015B\u0107 N\u0119dzniku."
@@ -2225,11 +2225,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4766706328321064499, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000002969335
+      value: 0.00000002969335
       objectReference: {fileID: 0}
     - target: {fileID: 4766706328321064499, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000002546248
+      value: -0.000000002546248
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554496, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_Follow
@@ -2261,11 +2261,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554497, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000002969335
+      value: 0.00000002969335
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554497, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000002546248
+      value: -0.000000002546248
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329933972049, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_RootOrder
