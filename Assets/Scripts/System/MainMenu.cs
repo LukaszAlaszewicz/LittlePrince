@@ -12,7 +12,11 @@ namespace LP
 
         public void Start()
         {
-            pauseMenu.SetActive(false);
+            if (SceneManager.GetActiveScene().buildIndex == 0 || SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 17 ||
+                SceneManager.GetActiveScene().buildIndex == 18)
+                return;
+            else
+                pauseMenu.SetActive(false);
         }
         public void Update()
         {

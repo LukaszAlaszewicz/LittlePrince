@@ -42702,6 +42702,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 7440323858928711685, guid: 1dcf6ba5331091c458b3becfea150d94, type: 3}
+      propertyPath: m_text
+      value: 'Pauza
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440323858928711685, guid: 1dcf6ba5331091c458b3becfea150d94, type: 3}
+      propertyPath: m_fontSize
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440323858928711685, guid: 1dcf6ba5331091c458b3becfea150d94, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 17ac604d54029724bbaf58145a17375f, type: 2}
+    - target: {fileID: 7440323858928711685, guid: 1dcf6ba5331091c458b3becfea150d94, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440323858928711685, guid: 1dcf6ba5331091c458b3becfea150d94, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8311795077227729505, guid: 1dcf6ba5331091c458b3becfea150d94, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 33ec0daf90ac42c4492b33ea2883fbd7, type: 3}
+    - target: {fileID: 8937243412519933856, guid: 1dcf6ba5331091c458b3becfea150d94, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 33ec0daf90ac42c4492b33ea2883fbd7, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1dcf6ba5331091c458b3becfea150d94, type: 3}
 --- !u!224 &1883784396 stripped
@@ -47872,7 +47902,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4766706329290497661}
-  m_LocalRotation: {x: 0.34444797, y: 0.000000016153445, z: -0.000000005926702, w: 0.93880546}
+  m_LocalRotation: {x: 0.34444797, y: -0.000000016153445, z: 0.000000005926702, w: 0.93880546}
   m_LocalPosition: {x: -187.02429, y: -39.74, z: -94.56}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -47941,7 +47971,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4766706330131349323}
-  m_LocalRotation: {x: 0.34444797, y: 0.000000016153445, z: -0.000000005926702, w: 0.93880546}
+  m_LocalRotation: {x: 0.34444797, y: -0.000000016153445, z: 0.000000005926702, w: 0.93880546}
   m_LocalPosition: {x: -187.02429, y: -39.74, z: -94.56}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []

@@ -1567,6 +1567,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 7440323858928711685, guid: 1dcf6ba5331091c458b3becfea150d94, type: 3}
+      propertyPath: m_text
+      value: Pauza
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440323858928711685, guid: 1dcf6ba5331091c458b3becfea150d94, type: 3}
+      propertyPath: m_fontSize
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440323858928711685, guid: 1dcf6ba5331091c458b3becfea150d94, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 17ac604d54029724bbaf58145a17375f, type: 2}
+    - target: {fileID: 7440323858928711685, guid: 1dcf6ba5331091c458b3becfea150d94, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440323858928711685, guid: 1dcf6ba5331091c458b3becfea150d94, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6712016548336671195, guid: 17ac604d54029724bbaf58145a17375f, type: 2}
+    - target: {fileID: 8311795077227729505, guid: 1dcf6ba5331091c458b3becfea150d94, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 33ec0daf90ac42c4492b33ea2883fbd7, type: 3}
+    - target: {fileID: 8937243412519933856, guid: 1dcf6ba5331091c458b3becfea150d94, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: 33ec0daf90ac42c4492b33ea2883fbd7, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1dcf6ba5331091c458b3becfea150d94, type: 3}
 --- !u!1 &417430290
@@ -2321,15 +2349,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4766706328321064499, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.08543792
+      value: 0.08543794
       objectReference: {fileID: 0}
     - target: {fileID: 4766706328321064499, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000019840465
+      value: 0.000000012299389
       objectReference: {fileID: 0}
     - target: {fileID: 4766706328321064499, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000017013492
+      value: -0.0000000010546912
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554496, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_Follow
@@ -2357,15 +2385,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554497, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.08543792
+      value: 0.08543794
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554497, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000019840465
+      value: 0.000000012299389
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554497, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000017013492
+      value: -0.0000000010546912
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329933972049, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_RootOrder
