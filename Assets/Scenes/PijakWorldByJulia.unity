@@ -1194,7 +1194,7 @@ MonoBehaviour:
   npcName: "N\u0119dznik "
   dialogMenager: {fileID: 1076622849}
   npcConvo:
-  - "N: Ma\u0142y Ksi\u0105\u017Ce! W-w-witaj na m-m-mojej skromnej planecie\u2026-*Czkawfa.*"
+  - "N: Ma\u0142y Ksi\u0105\u017Ce! W-w-witaj na m-m-mojej skromnej planecie\u2026-*Czkawka.*"
   - "*Gdy podchodzi bli\u017Cej sto\u0142u, zatyka nos od ostrego zapachu, kt\xF3ry
     unosi si\u0119 w powietrzu*"
   - "MK: Witaj\u2026 N\u0119dzniku. Masz bardzo \u0142adne obrazy. Przychodz\u0119
@@ -2349,15 +2349,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4766706328321064499, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.08543794
+      value: 0.085437946
       objectReference: {fileID: 0}
     - target: {fileID: 4766706328321064499, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000012299389
+      value: -0.000000016634806
       objectReference: {fileID: 0}
     - target: {fileID: 4766706328321064499, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000010546912
+      value: 0.0000000014264597
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554496, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_Follow
@@ -2385,15 +2385,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554497, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.08543794
+      value: 0.085437946
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554497, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000012299389
+      value: -0.000000016634806
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554497, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000010546912
+      value: 0.0000000014264597
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329933972049, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_RootOrder
