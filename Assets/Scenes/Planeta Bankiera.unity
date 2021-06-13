@@ -14140,11 +14140,11 @@ MonoBehaviour:
   npcName: Bankier
   dialogMenager: {fileID: 474614744}
   npcConvo:
-  - "B: No, no, no\u2026 Kogo my tu mamy? Nie spodziewa\u0142em \u017Ce zobacz\u0119
-    Ci\u0119 tutaj tak szybko\u2026"
+  - "B: No, no, no\u2026 Kogo my tu mamy? Nie spodziewa\u0142em si\u0119, \u017Ce
+    zobacz\u0119 Ci\u0119 tutaj tak szybko\u2026"
   - "MK: Spodziewa\u0142 si\u0119 mnie, Pan?"
   - "B: Prosz\u0119 Ci\u0119, informacja to moja dziedzina, dzi\u0119ki temu tak
-    si\u0119 zbogaci\u0142em."
+    si\u0119 wzbogaci\u0142em."
   - "*Ma\u0142y Ksi\u0105\u017Ce rozgl\u0105da si\u0119 po planecie i rzeczywi\u015Bcie
     pe\u0142no tu szafek, wype\u0142nionymi tajemniczymi dokumentami.*"
   - "B: Dosta\u0142em wiadomo\u015B\u0107, \u017Ce jaki\u015B ma\u0142y smarkacz,
@@ -14164,7 +14164,7 @@ MonoBehaviour:
   - "*Przybli\u017Ca si\u0119 do twarzy, szczerz\u0105c bardzo ostre z\u0119by*  "
   - "MK: Owszem, jego zagadka nie jest a\u017C tak trudna \u2013 wystarczy\u0142o
     go pos\u0142ucha\u0107. "
-  - "*Bankier prychn\u0105 \u015Bmiechem*"
+  - "*Bankier parskn\u0105\u0142 \u015Bmiechem*"
   - "B: A kto by s\u0142ucha\u0142 takiego n\u0119dznika? Mo\u017Cesz zdradzi\u0107
     mi odpowied\u017A na jego zagadk\u0119?"
   - "MK: Nie mog\u0119 to jego prywatna historia\u2026"
@@ -14179,7 +14179,7 @@ MonoBehaviour:
     dla po\u017Cytku."
   - 'MK: A co z dwoma innymi rodzajami?'
   - "B: S\u0105 bez warto\u015Bci.-*Wypu\u015Bci\u0142 ogromny dym z ust.*"
-  - "MK: To w takim razie ile masz przyjaci\xF3\u0142? "
+  - "MK: To w takim razie il\u0119 masz przyjaci\xF3\u0142? "
   - "*Bankier unosi brew, nast\u0119pnie odwraca wzrok od Ma\u0142ego Ksi\u0119cia.*"
   - "B: Nie mam. Gdy chcesz osi\u0105gn\u0105\u0107 tyle co ja, przyjaciele staj\u0105
     si\u0119 bezu\u017Cyteczni\u2026"
@@ -21045,11 +21045,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4766706328321064499, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0000000042858663
+      value: -0.0000000042858663
       objectReference: {fileID: 0}
     - target: {fileID: 4766706328321064499, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -3.6751951e-10
+      value: 3.6751951e-10
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554496, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_Follow
@@ -21081,11 +21081,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554497, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0000000042858663
+      value: -0.0000000042858663
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554497, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -3.6751951e-10
+      value: 3.6751951e-10
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329933972049, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_RootOrder

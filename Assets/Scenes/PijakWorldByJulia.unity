@@ -1090,7 +1090,7 @@ MonoBehaviour:
     zdoby\u0107 moje uznanie."
   - "*Ma\u0142y Ksi\u0105\u017Ce kiwn\u0105\u0142 g\u0142ow\u0105 na zgod\u0119 i
     wyprostowa\u0142 si\u0119.*"
-  - "N: Widzisz te obrazy? S\u0105 zwi\u0105zane z moja zagadk\u0105..."
+  - "N: Widzisz te obrazy? S\u0105 zwi\u0105zane z moj\u0105 zagadk\u0105..."
   - "Ja by\u0142em podobny do Ciebie, te\u017C poszukiwa\u0142em nowych przyg\xF3d
     i nowych przyja\u017Ani\u2026 Przyja\u017Anie \u2013 jakim ja g\u0142upcem by\u0142em. "
   - "MK: Czemu tak m\xF3wisz?"
@@ -1102,10 +1102,10 @@ MonoBehaviour:
   - "MK: Co posz\u0142o nie tak?"
   - "N: Nie zda\u0142em sobie sprawy, \u017Ce to wszystko by\u0142o ILUZJ\u0104,
     nie zauwa\u017Cy\u0142em tego \u017Ce Anabel kocha Albina."
-  - "Musia\u0142em to zobaczy\u0107 na w\u0142asne oczy by uwierzy\u0107 w jej ZDRADE\u2026"
+  - "Musia\u0142em to zobaczy\u0107 na w\u0142asne oczy by uwierzy\u0107 w jej ZDRAD\u0118\u2026"
   - "MK: Co si\u0119 sta\u0142o z Tob\u0105 i Albinem? Byli\u015Bcie jak bracia?"
   - "N: Czy to nie oczywiste? Gdy skonsultowa\u0142em si\u0119 z nim w tej sprawie,
-    On wytargn\u0105\u0142 mi \u017Ce by\u0142em egoistycznym przyjacielem\u2026 "
+    On wytkn\u0105\u0142 mi \u017Ce by\u0142em egoistycznym przyjacielem\u2026 "
   - "Ja? Hahaha\u2026-*Zacz\u0105\u0142 g\u0142o\u015Bno kaszle\u0107.*"
   - "- ROZ\u0141AM, bola\u0142 najbardziej, s\u0105dzi\u0142em, \u017Ce mnie potrzebuj\u0105,
     \u017Ce beze mnie s\u0105 nikim\u2026 - *Spogl\u0105da smutno na st\xF3\u0142.*"
@@ -1113,8 +1113,8 @@ MonoBehaviour:
     \u017Ce Albin kocha\u0142 Anabel od zawsze\u2026"
   - "*Ku zdziwieniu N\u0119dznika, Ma\u0142y Ksi\u0105\u017Ce podszed\u0142 do niego
     i przytuli\u0142 go. *"
-  - "*N\u0119dznik, chwil\u0119 zdezorientowany odwzajemni\u0119 u\u015Bcisk.*"
-  - "N: Mam nadzieje \u017Ce sobie poradzisz Ma\u0142y Ksi\u0105\u017Ce ze moj\u0105
+  - "*N\u0119dznik, chwil\u0119 zdezorientowany odwzajemnia u\u015Bcisk.*"
+  - "N: Mam nadzieje \u017Ce sobie poradzisz Ma\u0142y Ksi\u0105\u017Ce z moj\u0105
     zagadk\u0105 i znajdziesz lepszych ludzi\u2026"
   - "MK: Dzi\u0119kuj\u0119, za opowie\u015B\u0107 N\u0119dzniku."
   - === KONIEC ===
@@ -2221,15 +2221,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4766706328321064499, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.08543791
+      value: 0.085437946
       objectReference: {fileID: 0}
     - target: {fileID: 4766706328321064499, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.00000002969335
+      value: -0.000000016634806
       objectReference: {fileID: 0}
     - target: {fileID: 4766706328321064499, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000002546248
+      value: 0.0000000014264597
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554496, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_Follow
@@ -2257,15 +2257,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554497, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.08543791
+      value: 0.085437946
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554497, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.00000002969335
+      value: -0.000000016634806
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329220554497, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000002546248
+      value: 0.0000000014264597
       objectReference: {fileID: 0}
     - target: {fileID: 4766706329933972049, guid: 0248c5a8b5abc16408ba64fd06b7f942, type: 3}
       propertyPath: m_RootOrder
